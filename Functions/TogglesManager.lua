@@ -2,14 +2,24 @@ local OptionsManager = {}
 
 -- Các tùy chọn mặc định
 OptionsManager.defaultOptions = {
-    getsaber = false,
     oneclick = false,
-    lvlfarm = false,
+    HS = false,
+    Melee = false,
+    Defense = false,
+    Gun = false,
+    ["Blox Fruit"] = false,
     playerkill = false,
+    getsaber = false,
     secondsea = false,
-    bypasstp = false,
     bringmob = false,
+    bypasstp = false,
     fastattack = false,
+    spm = false,
+    gh = false,
+    revanim = false,
+    revdeath = false,
+    revattack = false,
+    lowgfx = false,
     -- Thêm các tùy chọn khác nếu cần
 }
 
